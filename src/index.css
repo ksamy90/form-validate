@@ -1,0 +1,42 @@
+body {
+  background-color: green;
+}
+.container {
+  margin-top: 130px;
+  margin-left: 200px;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  background-color: gray;
+}
+
+input {
+  display: block;
+  margin-bottom: 40px;
+  padding: 13px;
+  width: 300px;
+  border: none;
+  background-color: #e8dcdc;
+}
+
+button {
+  padding: 15px;
+  width: 330px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.error {
+  font-style: italic;
+  color: #352424;
+}
+
+@media (max-width: 630px) {
+  .container {
+    margin-left: 70px;
+  }
+}
